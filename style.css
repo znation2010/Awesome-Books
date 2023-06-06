@@ -3,7 +3,8 @@ body {
   margin: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -12,25 +13,25 @@ form {
   text-align: center;
 }
 
-
-
 input[type="text"] {
   width: 300px;
   padding: 5px;
   font-size: 16px;
 }
 
-button[type="submit"], button {
+button[type="submit"],
+button {
   padding: 5px 10px;
   font-size: 16px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover, button:hover {
+button[type="submit"]:hover,
+button:hover {
   background-color: #45a049;
 }
 
@@ -40,13 +41,14 @@ table {
   text-align: center;
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
 th {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }

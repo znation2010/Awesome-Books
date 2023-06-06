@@ -37,7 +37,7 @@ This project is designed to help us understand JavaScript objects and how to uti
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML-5
+- HTML5
 - CSS3
 - Linters
 - Javascript

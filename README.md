@@ -29,9 +29,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone Project : Module 1 - HTML, CSS, JS] <a name="about-project"></a>
+# 📖 [Awesome books: plain JavaScript with objects] <a name="about-project"></a>
 
-This is the first capstone project
+This project is designed to help us understand JavaScript objects and how to utilize it. Also about localStorage and usage of DOM.
 
 ## 🛠 Built With <a name="built-with"></a>
 

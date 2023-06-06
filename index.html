@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Awesome Books</h1>
+
+    <form id="bookForm">
+      <input type="text" id="title" required placeholder="Title" /> <br />
+      <br />
+      <input
+        type="text"
+        id="author"
+        required
+        placeholder="Author"
+      /><br /><br />
+      <button type="submit">Add</button>
+    </form>
+
+    <h2>Books:</h2>
+    <center>
+      <table id="bookTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="bookList"></tbody>
+      </table>
+    </center>
+  </body>
+  <script src="index.js"></script>
+</html>

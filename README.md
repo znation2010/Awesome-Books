@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Capstone Project: Module 1 - HTML, CSS, JS</b></h3>
+  <h3><b>Awesome books: with ES6</b></h3>
 
 </div>
 
@@ -29,9 +29,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome books: plain JavaScript with objects] <a name="about-project"></a>
+# 📖 [Awesome books: with ES6] <a name="about-project"></a>
 
-This project is designed to help us understand JavaScript objects and how to utilize it. Also about localStorage and usage of DOM.
+This project is designed to help us understand JavaScript objects and how to utilize it. Also about using ECMASCRIPT 6 and importing Scripts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,6 +41,7 @@ This project is designed to help us understand JavaScript objects and how to uti
 - CSS3
 - Linters
 - Javascript
+- ES6
 
 <details>
   <summary>Client</summary>
@@ -57,7 +58,8 @@ This project is designed to help us understand JavaScript objects and how to uti
 
 > Key features of the application.
 
-- **[responsiveness]**
+- **[ES6]**
+- **[Importing-Scripts]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +101,7 @@ Then open the live server or open the `index.html` file with your browser
 
 ### Usage
 
-- this is the capstone project I'll use to publicize the Show.
+- this is Awesome Books ES6 project I'll use to publicize the Show.
 
 ### Run tests
 
@@ -120,12 +122,6 @@ To run tests, run the following command:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-👤 **Hamza Ramalan**
-
-- GitHub: (https://github.com/H-Ramalan)
-- Twitter: (https://twitter.com/@hamza_ramalan)
-- LinkedIn: (https://www.linkedin.com/in/hamza-r-3b3b6a/)
 
 👤 **Zerihun Abune**
 

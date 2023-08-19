@@ -1,78 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Awesome Books</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Awesome Book</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <header class="header">
-    <nav class="nav">
-      <h4 class="name">Awesome Books</h4>
-      <ul class="link-list">
-        <li><a href="#" class="list link">List</a></li>
-        <li><a href="#" class="add-new link">Add New</a></li>
-        <li><a href="#" class="contact link">Contact</a></li>
-      </ul>
-      <img src="./img/hamburger.png" alt="ham" class="ham" />
-    </nav>
-  </header>
-
   <body>
-    <section class="date-box"></section>
-
-    <div class="all-books">
-      <h1>All awesome books</h1>
-      <table id="bookTable">
-        <thead>
-          <tr></tr>
-        </thead>
-        <tbody id="bookList"></tbody>
-      </table>
+    <nav class="nav">
+      <span>Awesome Books</span>
+      <div>
+        <a href="#"><span class="list">List</span></a>
+        <a href="#"><span class="add-new">Add new</span></a>
+        <a href="#"><span class="contact-info">Contact</span></a>
+      </div>
+    </nav>
+    <div class="date"></div>
+    <div class="book-list">
+      <h1>Awesome Book</h1>
+      <div class="container"></div>
     </div>
-
-    <div class="add-book-box hidden">
-      <h1>Add new a book</h1>
-      <form id="bookForm" class="book-form">
+    <div class="add_new-book non-display">
+      <h2 class="">Add new Book</h2>
+      <form onsubmit="event.preventDefault();" class="form" id="form">
         <input
           type="text"
-          id="title"
-          required
+          name="title"
           placeholder="Title"
-          class="input"
-        />
+          class="title"
+        /><br />
         <input
           type="text"
-          id="author"
-          required
+          name="title"
           placeholder="Author"
-          class="input"
-        />
-        <button type="submit" class="button add">Add</button>
+          class="author"
+        /><br />
+        <div class="error"></div>
+        <br />
+        <div class="add-btn-div"></div>
       </form>
     </div>
-    <div class="contact-me-box hidden">
-      <h1>Contact information</h1>
-      <div class="note">
-        <p class="p-note">
-          Do you have any question or you just want to say "Hello"? <br />
-          You can reach out to us:
-        </p>
-      </div>
-      <ul class="reach-link">
-        <li>Our email: lorem@gmail.com</li>
-        <li>Our phone number: +2348045123698</li>
-        <li>Our address: Street name 22, 34895, Usuma City, Wakanda.</li>
+    <div class="contact non-display">
+      <h2>Contact Information</h2>
+      <p>
+        Do you have any question or you went to say "Hello"?<br />
+        And You can reach out using :-
+      </p>
+      <ul>
+        <li>Email : znationabune@gmail.com</li>
+        <li>Phone number : +251911121314</li>
+        <li>Email2 : geleta@gmail.com</li>
       </ul>
     </div>
-    <footer class="footer">
-      <p class="footer-note">&copy;Copyright Zerihun-2023</p>
-    </footer>
+    <div class="copy-right">Copyright</div>
+    <script type="module" src="modules/index.js"></script>
   </body>
-  <script src="scripts.js"></script>
 </html>

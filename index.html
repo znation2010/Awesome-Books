@@ -1,40 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Awesome Books</title>
+    <title>Awesome Book</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Awesome Books</h1>
-
-    <form id="bookForm">
-      <input type="text" id="title" required placeholder="Title" /> <br />
-      <br />
-      <input
-        type="text"
-        id="author"
-        required
-        placeholder="Author"
-      /><br /><br />
-      <button type="submit">Add</button>
-    </form>
-
-    <h2>Books:</h2>
-    <center>
-      <table id="bookTable">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Author</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody id="bookList"></tbody>
-      </table>
-    </center>
+    <nav class="nav">
+      <span>Awesome Books</span>
+      <div>
+        <a href="#"><span class="list">List</span></a>
+        <a href="#"><span class="add-new">Add new</span></a>
+        <a href="#"><span class="contact-info">Contact</span></a>
+      </div>
+    </nav>
+    <div class="date"></div>
+    <div class="book-list">
+      <h1>Awesome Book</h1>
+      <div class="container"></div>
+    </div>
+    <div class="add_new-book non-display">
+      <h2 class="">Add new Book</h2>
+      <form onsubmit="event.preventDefault();" class="form" id="form">
+        <input
+          type="text"
+          name="title"
+          placeholder="Title"
+          class="title"
+        /><br />
+        <input
+          type="text"
+          name="title"
+          placeholder="Author"
+          class="author"
+        /><br />
+        <div class="error"></div>
+        <br />
+        <div class="add-btn-div"></div>
+      </form>
+    </div>
+    <div class="contact non-display">
+      <h2>Contact Information</h2>
+      <p>
+        Do you have any question or you went to say "Hello"?<br />
+        And You can reach out using :-
+      </p>
+      <ul>
+        <li>Email : znationabune@gmail.com</li>
+        <li>Phone number : +251911121314</li>
+        <li>Email2 : geleta@gmail.com</li>
+      </ul>
+    </div>
+    <div class="copy-right">Copyright</div>
+    <script type="module" src="modules/index.js"></script>
   </body>
-  <script src="index.js"></script>
 </html>

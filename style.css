@@ -1,54 +1,147 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 
-h1,
-h2 {
-  text-align: center;
+.nav {
+  padding: 10px 25px;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px #000 solid;
+  gap: 10px;
 }
 
-form {
-  margin-bottom: 20px;
-  text-align: center;
+.nav > span {
+  font-size: larger;
+  font-weight: bold;
 }
 
-input[type="text"] {
-  width: 300px;
-  padding: 5px;
-  font-size: 16px;
+.nav div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
-button[type="submit"],
-button {
-  padding: 5px 10px;
-  font-size: 16px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
+.nav div a {
+  text-decoration: none;
+}
+
+.nav div span {
   cursor: pointer;
-  transition: background-color 0.3s;
+  padding: 0 20px;
+  border-right: 1px solid #000;
+  text-decoration: none;
 }
 
-button[type="submit"]:hover,
-button:hover {
-  background-color: #45a049;
+.nav div .contact-info {
+  border-right: 0 solid #000;
 }
 
-table {
-  width: 60%;
-  border-collapse: collapse;
+.nav div span:active,
+.nav div span:focus {
+  color: blueviolet;
+}
+
+.date {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+hr {
+  margin-top: 20px;
+  width: 7%;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.book-list .container {
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.book-list .book-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+
+.book-item:nth-child(odd) {
+  background: #efefef;
+}
+
+.book-list .book-item .book-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.add_new-book {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .add-btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.form .error {
+  color: red;
+  font-size: 10px;
   text-align: center;
 }
 
-th,
-td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+.form .success {
+  color: rgb(3, 170, 3);
+  font-size: 12px;
+  text-align: center;
 }
 
-th {
-  background-color: #4caf50;
-  color: white;
+.form button {
+  width: 40px;
+  align-self: flex-end;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.copy-right {
+  margin-top: 20px;
+  width: 97%;
+  border: 1px solid #474646;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+}
+
+.non-display {
+  display: none;
+}
+
+.display {
+  display: flex;
+}
+
+.color {
+  color: blue;
 }
